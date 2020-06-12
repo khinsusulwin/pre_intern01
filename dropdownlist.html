@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+          document.addEventListener('DOMContentLoaded',function(){
+          document.querySelectorAll('.color-change').forEach(function(option){
+          option.onclick=function(){
+          document.querySelector('#hello').style.color= option.dataset.index;    
+                                                 
+                                        };
+                              });
+                    });
+        </script>
+        <title>Assignment2</title>
+    </head>
+    <body>
+        <h1 id="hello">Hello!Welcome to Our PreIntern Group!</h1>
+            <select>
+            <option value="1" class="color-change" data-index="red">Red</option>
+            <option value="2" class="color-change" data-index="blue">Blue</option>
+            <option value="3" class="color-change" data-index="green">Green</option>
+            <option value="4" class="color-change" data-index="yellow">Yellow</option>
+            <option value="5" class="color-change" data-index="black" selected="selected">Black</option>
+        </select>
+    </body>
+</html>
