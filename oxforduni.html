@@ -1,0 +1,789 @@
+
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <title>Align nav bar item into center</title> 
+    <link rel="stylesheet" href= 
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+          integrity= 
+"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous" /> 
+  
+    <link rel="stylesheet" type="text/css" href= 
+"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" /> 
+    <link rel="stylesheet" href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /> 
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+</head> 
+  
+<body> 
+    
+    <nav class="navbar navbar-expand-sm navbar-light bg-primary"> 
+        <div class="container"> 
+          
+            <button class="navbar-toggler" type="button" 
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation"> 
+                <span class="navbar-toggler-icon"></span> 
+            </button> 
+  
+            <div class="collapse navbar-collapse"></div> 
+            <div>
+                    <img src="oxfordlogo.jpg" class="img-fluid"  style="width: 25%; height: 50px;text-align: left;"> 
+            </div>
+  
+            <div class="collapse navbar-collapse" 
+                 id="navbarSupportedContent"> 
+                <ul class="navbar-nav mr-auto"> 
+                    <li class="nav-item active"> 
+                        <a class="navbar-brand"
+                           href="oxforduni.html">
+                          Home  
+                          <span class="sr-only"> 
+                            (current) 
+                          </span> 
+                      </a> 
+                    </li> 
+                    <li class="nav-item"> 
+                        <a class="navbar-brand" 
+                           href="program.html"> 
+                          Online Application 
+                        </a> 
+                    </li> 
+                    <li class="nav-item"> 
+                        <a class="navbar-brand"
+                           href="#"> 
+                          Login 
+                        </a> 
+                    </li> 
+                </ul> 
+            </div> 
+            
+        </div> 
+    </nav> 
+    <div class="text-center">
+          <img src="oxford.jpg" class="img-fluid" alt="Responsive image" style="width: 80%;">
+        </div>
+
+        <div class="container">
+          <h2>Admission Progress</h2>
+       
+                        <div class="row">
+                            <div class="col-xs-3">
+                                1.Fill in Application
+                            </div>
+                            <div class="col-xs-3">
+                               2.Verify Data
+                            </div>
+                            <div class="col-xs-3">
+                             3.Print Application Form
+                           </div>
+                           <div class="col-xs-3">
+                              4.Login
+                           </div>
+                        </div>
+                      
+                    
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width:25%">
+            
+            </div>
+          </div>
+        </div>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <p>
+          
+           <hr/>
+          
+        </p>
+        
+        <div class="container">
+          <h2>Applicant's Information</h2>
+          <form class="form-horizontal" action="/action_page.php">
+                    
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="title">Title:</label>
+              <div class="col-sm-10">
+                <select  class="form-control" id="exampleFormControlSelect1">
+                    <option>...select...</option>
+                    <option>......</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="name">Name(ENG):</label>
+              <div class="col-sm-10">          
+                <input type="name" class="form-control" id="name" placeholder="Enter name" name="name">
+              </div>
+            </div>
+           
+                     
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="email">Name(MM):</label>
+                    <div class="col-sm-10">
+                      <input type="NAME" class="form-control" id="NAME" placeholder="Enter name" name="name">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="gen">Gender:</label>
+                    <div class="col-sm-10">
+                    <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                              <label class="form-check-label" for="inlineRadio1">Male</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                              <label class="form-check-label" for="inlineRadio2">Female</label>
+                            </div>
+                  </div>
+                  </div>
+
+                           
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="email">E-mail:</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="sy">Syllabus:</label>
+                    <div class="col-sm-10">
+                      <select  class="form-control" id="exampleFormControlSelect1">
+                          <option>...select...</option>
+                          <option>......</option>
+                      </select>
+                    </div>
+                  </div>
+          </form>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+<p>
+  
+   <hr/>
+  
+</p>
+
+<div class="container">
+          <h2>Education</h2>
+          <form class="form-horizontal" action="/action_page.php">
+                    
+                    <div class="form-group">
+                              <label class="control-label col-sm-2" for="sty">Study in:</label>
+                              <div class="col-sm-10">
+                              <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                        <label class="form-check-label" for="inlineRadio1">Myanmar</label>
+                                      </div>
+                                      <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                        <label class="form-check-label" for="inlineRadio2">Abroad</label>
+                                      </div>
+                            </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="control-label col-sm-2" for="title">School:</label>
+                              <div class="col-sm-10">
+                                <select  class="form-control" id="exampleFormControlSelect1">
+                                    <option>...select...</option>
+                                    <option>......</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="control-label col-sm-2" for="title">Level of Completion:</label>
+                              <div class="col-sm-10">
+                                <select  class="form-control" id="exampleFormControlSelect1">
+                                    <option>...select...</option>
+                                    <option>......</option>
+                                </select>
+                              </div>
+                            </div>
+
+                            <div class="form-group">
+                              <label class="control-label col-sm-2" for="title">Major:</label>
+                              <div class="col-sm-10">
+                                <select  class="form-control" id="exampleFormControlSelect1">
+                                    <option>Mathematics and Science</option>
+                                    <option>......</option>
+                                </select>
+                              </div>
+                            </div>
+          
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="name">GPAX(e.g.3.50):</label>
+                    <div class="col-sm-10">          
+                      <input type="name" class="form-control" id="name" placeholder="Enter gpax" name="name">
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="gra">Graduation in:</label>
+                    <div class="col-sm-2">
+                      <select  class="form-control" id="exampleFormControlSelect1">
+
+                                        <option selected>January</option>
+                                        <option>February</option>
+                                        <option>March</option>
+                                        <option>April</option>
+                                        <option>May</option>
+                                        <option>June</option>
+                                        <option>July</option>
+                                        <option>August</option>
+                                        <option>September</option>
+                                        <option>October</option>
+                                        <option>November</option>
+                                        <option>December</option>
+                                      </select>
+                    </div>
+
+                    <label  for="gra"></label>
+                    <div class="col-sm-2">
+                      <select  class="form-control" id="exampleFormControlSelect1">
+                              
+                                        <option selected>2020</option>
+                                        <option>2019</option>
+                                        <option>2018</option>
+                                        <option>2017</option>
+                                        <option>2016</option>
+                                        <option>2015</option>
+                                        <option>2014</option>
+                                        <option>2013</option>
+                                        <option>2012</option>
+                                        <option>2011</option>
+                                        <option>2010</option>
+                                        <option>2009</option>
+                                      </select>
+                    </div>
+                  </div>
+          </form>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+<p>
+  
+   <hr/>
+  
+</p>
+
+<div class="container">
+          <h2>Personals Details</h2>
+          <form class="form-horizontal" action="/action_page.php">
+                    <div class="form-group">
+
+                              <label class="control-label col-sm-2" for="gra">BirthDate:</label>
+                              <div class="col-sm-1">
+                                <select  class="form-control" id="exampleFormControlSelect1">
+          
+                                                  <option selected>01</option>
+                                                  <option>02</option>
+                                                  <option>03</option>
+                                                  <option>04</option>
+                                                  <option>05</option>
+                                                  <option>06</option>
+                                                  <option>07</option>
+                                                  <option>08</option>
+                                                  <option>09</option>
+                                                  <option>10</option>
+                                                  <option>11</option>
+                                                  <option>12</option>
+                                                  <option>13</option>
+                                                  <option>14</option>
+                                                  <option>15</option>
+                                                  <option>16</option>
+                                                  <option>17</option>
+                                                  <option>18</option>
+                                                  <option>19</option>
+                                                  <option>20</option>
+                                                  <option>21</option>
+                                                  <option>22</option>
+                                                  <option>23</option>
+                                                  <option>24</option>
+                                                  <option>25</option>
+                                                  <option>26</option>
+                                                  <option>27</option>
+                                                  <option>28</option>
+                                                  <option>29</option>
+                                                  <option>30</option>
+                                                  <option>31</option>
+                                                </select>
+                              </div>
+                              <label for="gra"></label>
+                              <div class="col-sm-2">
+                                <select  class="form-control" id="exampleFormControlSelect1">
+          
+                                                  <option selected>January</option>
+                                                  <option>February</option>
+                                                  <option>March</option>
+                                                  <option>April</option>
+                                                  <option>May</option>
+                                                  <option>June</option>
+                                                  <option>July</option>
+                                                  <option>August</option>
+                                                  <option>September</option>
+                                                  <option>October</option>
+                                                  <option>November</option>
+                                                  <option>December</option>
+                                                </select>
+                              </div>
+          
+                              <label  for="gra"></label>
+                              <div class="col-sm-2">
+                                <select  class="form-control" id="exampleFormControlSelect1">
+                                        
+                                                  <option selected>2020</option>
+                                                  <option>2019</option>
+                                                  <option>2018</option>
+                                                  <option>2017</option>
+                                                  <option>2016</option>
+                                                  <option>2015</option>
+                                                  <option>2014</option>
+                                                  <option>2013</option>
+                                                  <option>2012</option>
+                                                  <option>2011</option>
+                                                  <option>2010</option>
+                                                  <option>2009</option>
+                                                </select>
+                              </div>
+                            </div>
+
+                            <div class="form-group">
+                              <label class="control-label col-sm-2" for="title">Nationality:</label>
+                              <div class="col-sm-3">
+                                <select  class="form-control" id="exampleFormControlSelect1">
+                                    <option>...select...</option>
+                                    <option>......</option>
+                                </select>
+                              </div>
+                              <label class="control-label col-sm-4" for="title">CitizenShip:</label>
+                              <div class="col-sm-3">
+                                <select  class="form-control" id="exampleFormControlSelect1">
+                                        
+                                                  <option selected>select</option>
+                                                  <option>......</option>
+                                                 
+                                                </select>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="control-label col-sm-2" for="title">Religion:</label>
+                              <div class="col-sm-10">
+                                <select  class="form-control" id="exampleFormControlSelect1">
+                                    <option>Buddish</option>
+                                    <option>......</option>
+                                </select>
+                              </div>
+                            </div>
+
+                            <div class="form-group">
+                              <label class="control-label col-sm-2" for="title">Blood Group:</label>
+                              <div class="col-sm-10">
+                                <select  class="form-control" id="exampleFormControlSelect1">
+                                    <option selected>A</option>
+                                    <option>B</option>
+                                    <option>AB</option>
+                                    <option>O</option>
+                                </select>
+                              </div>
+                            </div>
+          
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="name">Cidizen id:</label>
+                    <div class="col-sm-3">          
+                      <input type="name" class="form-control" id="name" placeholder="Enter id" name="name">
+                    </div>
+                    <label class="control-label col-sm-4" for="name">If not Myau please insert password No:</label>
+                    <div class="col-sm-3">          
+                      <input type="name" class="form-control" id="name" placeholder="Enter password" name="name">
+                    </div>
+                  </div>
+                    </form>
+                    
+                   
+                              <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+                              <p>
+                                
+                                 <hr/>
+                                
+                              </p>
+          <div class="container">
+                    <h2>Mailing Address</h2>
+                    <form class="form-horizontal" action="/action_page.php">
+          
+          <div class="form-group">
+                    <label class="control-label col-sm-2" for="name">Address No:</label>
+                    <div class="col-sm-4">          
+                      <input type="name" class="form-control">
+                    </div>
+          </div>
+                    <div class="form-group">
+                              <label class="control-label col-sm-2" for="name">Street:</label>
+                              <div class="col-sm-4">          
+                                <input type="name" class="form-control">
+                              </div></div>
+                              <div class="form-group">
+                                        <label class="control-label col-sm-2" for="name">District:</label>
+                                        <div class="col-sm-4">          
+                                          <input type="name" class="form-control">
+                                        </div>
+                                        <label class="control-label col-sm-2" for="title">City:</label>
+                                        <div class="col-sm-4">
+                                          <select  class="form-control" id="exampleFormControlSelect1">
+                                                  
+                                                            <option selected>Loikaw</option>
+                                                            <option>Yangon</option>
+                                                           
+                                                          </select>
+                                        </div>  
+                              </div>
+                              <div class="form-group">
+                                        <label class="control-label col-sm-2" for="name">Zip Code:</label>
+                                        <div class="col-sm-4">          
+                                          <input type="name" class="form-control">
+                                        </div></div>
+                                        <div class="form-group">
+                                                  <label class="control-label col-sm-2" for="name">Telephone:</label>
+                                                  <div class="col-sm-4">          
+                                                    <input type="name" class="form-control">
+                                                  </div>
+                                                  <label class="control-label col-sm-2" for="title">Mobile:</label>
+                                                  <div class="col-sm-4">
+                                                            <input type="name" class="form-control">
+                                                  </div>  
+                                        </div>
+                                        <div class="form-group">
+                                                  <label class="control-label col-sm-2" for="name">Fxc:</label>
+                                                  <div class="col-sm-4">          
+                                                    <input type="name" class="form-control">
+                                                  </div>
+                                        </div>
+                                        <div class="form-group">
+                                                  <label class="control-label col-sm-2" for="name">Facebook:</label>
+                                                  <div class="col-sm-4">          
+                                                    <input type="name" class="form-control">
+                                                  </div>
+                                        </div>
+                              </form>
+
+                              <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+                              <p>
+                                
+                                 <hr/>
+                                
+                              </p>
+                              <div class="container">
+                                        <h2>Father's Information</h2>
+                                        <form class="form-horizontal" action="/action_page.php">
+                                                  
+                                          <div class="form-group">
+                                            <label class="control-label col-sm-2" for="title">Title:</label>
+                                            <div class="col-sm-4">
+                                              <select  class="form-control" id="exampleFormControlSelect1">
+                                                  <option>...select...</option>
+                                                  <option>......</option>
+                                              </select>
+                                            </div>
+                                          </div>
+                                          <div class="form-group">
+                                            <label class="control-label col-sm-2" for="name">Name(TH):</label>
+                                            <div class="col-sm-4">          
+                                              <input type="name" class="form-control">
+                                            </div>
+                                          </div>
+                                         
+                                                  <div class="form-group">
+                                                            <label class="control-label col-sm-2" for="title">Nationality:</label>
+                                                            <div class="col-sm-4">
+                                                                      <input type="name" class="form-control">
+                                                            </div>
+                                                            </div>
+
+                                                            <div class="form-group">
+                                                                      <label class="control-label col-sm-2" for="gen">Status:</label>
+                                                                      <div class="col-sm-10">
+                                                                      <div class="form-check form-check-inline">
+                                                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                                                <label class="form-check-label" for="inlineRadio1">Living</label>
+                                                                              </div>
+                                                                              <div class="form-check form-check-inline">
+                                                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                                                <label class="form-check-label" for="inlineRadio2">Deceased</label>
+                                                                              </div>
+                                                                    </div>
+                                                                    </div>
+                                                                    <div class="form-group">
+                                                                      <label class="control-label col-sm-2" for="name">Age:</label>year
+                                                                      <div class="col-sm-1">          
+                                                                        <input type="name" class="form-control">
+                                                                      </div></div>
+                                                                      <div class="form-group">
+                                                                                <label class="control-label col-sm-2" for="name">Occupation:</label>
+                                                                                <div class="col-sm-4">          
+                                                                                  <input type="name" class="form-control">
+                                                                                </div>
+                                                                                <label class="control-label col-sm-2" for="title">Position:</label>
+                                                                                <div class="col-sm-4">
+                                                                                          <input type="name" class="form-control">
+                                                                                </div> 
+
+                                                                      </div> 
+                                                                     
+                                                                              <div class="form-group">
+                                                                                <label class="control-label col-sm-2" for="name">Father's Address:</label>
+                                                                                <div class="col-sm-5"> 
+                                                                                          <div class="form-check">       
+                                                            
+                                                                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                                                                    <label class="form-check-label" for="gridCheck1">
+                                                                                          
+                                                                                         
+                                                                                          &emsp;   Same as Applicant's Address
+                                                                                    </label>
+                                                                                  </div>
+                                                                                </div>
+                                                                              </div> 
+                                                                              
+                                                                            
+                                                                      <div class="form-group">
+                                                                                <label class="control-label col-sm-2" for="name">Address No:</label>
+                                                                                <div class="col-sm-4">          
+                                                                                  <input type="name" class="form-control">
+                                                                                </div>
+                                                                      </div>
+                                                                                <div class="form-group">
+                                                                                          <label class="control-label col-sm-2" for="name">Street:</label>
+                                                                                          <div class="col-sm-4">          
+                                                                                            <input type="name" class="form-control">
+                                                                                          </div></div>
+                                                                                          <div class="form-group">
+                                                                                                    <label class="control-label col-sm-2" for="name">District:</label>
+                                                                                                    <div class="col-sm-4">          
+                                                                                                      <input type="name" class="form-control">
+                                                                                                    </div>
+                                                                                                   
+                                                                                          </div>
+                                                                                          <div class="form-group">
+                                                                                                    <label class="control-label col-sm-2" for="name">Zip Code:</label>
+                                                                                                    <div class="col-sm-4">          
+                                                                                                      <input type="name" class="form-control">
+                                                                                                    </div></div>
+                                                                                                    <div class="form-group">
+                                                                                                              <label class="control-label col-sm-2" for="name">Telephone:</label>
+                                                                                                              <div class="col-sm-4">          
+                                                                                                                <input type="name" class="form-control">
+                                                                                                              </div>
+                                                                                                              <label class="control-label col-sm-2" for="title">Mobile:</label>
+                                                                                                              <div class="col-sm-4">
+                                                                                                                        <input type="name" class="form-control">
+                                                                                                              </div>  
+                                                                                                    </div>
+                                                                                                    <div class="form-group">
+                                                                                                              <label class="control-label col-sm-2" for="name">Fxc:</label>
+                                                                                                              <div class="col-sm-4">          
+                                                                                                                <input type="name" class="form-control">
+                                                                                                              </div>
+                                                                                                              <label class="control-label col-sm-2" for="title">E-mail:</label>
+                                                                                                              <div class="col-sm-4">
+                                                                                                                        <input type="name" class="form-control">
+                                                                                                              </div>  
+                                                                                                    </div>
+                                                                                                    <div class="form-group">
+                                                                                                              <label class="control-label col-sm-2" for="name">Facebook:</label>
+                                                                                                              <div class="col-sm-4">          
+                                                                                                                <input type="name" class="form-control">
+                                                                                                              </div>
+                                                                                                    </div>
+                                                                                          </form>
+                                                            
+                                                                                          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+                                                                                          <p>
+                                                                                            
+                                                                                             <hr/>
+                                                                                            
+                                                                                          </p>       
+
+                                                                                          <div class="container">
+                                                                                                    <h2>Mother's Information</h2>
+                                                                                                    <form class="form-horizontal" action="/action_page.php">
+                                                                                                              
+                                                                                                      <div class="form-group">
+                                                                                                        <label class="control-label col-sm-2" for="title">Title:</label>
+                                                                                                        <div class="col-sm-4">
+                                                                                                          <select  class="form-control" id="exampleFormControlSelect1">
+                                                                                                              <option>...select...</option>
+                                                                                                              <option>......</option>
+                                                                                                          </select>
+                                                                                                        </div>
+                                                                                                      </div>
+                                                                                                      <div class="form-group">
+                                                                                                        <label class="control-label col-sm-2" for="name">Name(TH):</label>
+                                                                                                        <div class="col-sm-4">          
+                                                                                                          <input type="name" class="form-control">
+                                                                                                        </div>
+                                                                                                      </div>
+                                                                                                     
+                                                                                                              <div class="form-group">
+                                                                                                                        <label class="control-label col-sm-2" for="title">Nationality:</label>
+                                                                                                                        <div class="col-sm-4">
+                                                                                                                                  <input type="name" class="form-control">
+                                                                                                                        </div>
+                                                                                                                        </div>
+                                                            
+                                                                                                                        <div class="form-group">
+                                                                                                                                  <label class="control-label col-sm-2" for="gen">Status:</label>
+                                                                                                                                  <div class="col-sm-10">
+                                                                                                                                  <div class="form-check form-check-inline">
+                                                                                                                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                                                                                                            <label class="form-check-label" for="inlineRadio1">Living</label>
+                                                                                                                                          </div>
+                                                                                                                                          <div class="form-check form-check-inline">
+                                                                                                                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                                                                                                            <label class="form-check-label" for="inlineRadio2">Deceased</label>
+                                                                                                                                          </div>
+                                                                                                                                </div>
+                                                                                                                                </div>
+                                                                                                                                <div class="form-group">
+                                                                                                                                  <label class="control-label col-sm-2" for="name">Age:</label>year
+                                                                                                                                  <div class="col-sm-1">          
+                                                                                                                                    <input type="name" class="form-control">
+                                                                                                                                  </div></div>
+                                                                                                                                  <div class="form-group">
+                                                                                                                                            <label class="control-label col-sm-2" for="name">Occupation:</label>
+                                                                                                                                            <div class="col-sm-4">          
+                                                                                                                                              <input type="name" class="form-control">
+                                                                                                                                            </div>
+                                                                                                                                            <label class="control-label col-sm-2" for="title">Position:</label>
+                                                                                                                                            <div class="col-sm-4">
+                                                                                                                                                      <input type="name" class="form-control">
+                                                                                                                                            </div> 
+                                                            
+                                                                                                                                  </div> 
+                                                                                                                                 
+                                                                                                                                          <div class="form-group">
+                                                                                                                                            <label class="control-label col-sm-2" for="name">Mother's Address:</label>
+                                                                                                                                            <div class="col-sm-5"> 
+                                                                                                                                                      <div class="form-check">       
+                                                                                                                        
+                                                                                                                                                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                                                                                                                                <label class="form-check-label" for="gridCheck1">
+                                                                                                                                                      
+                                                                                                                                                     
+                                                                                                                                                      &emsp;   Same as Applicant's Address
+                                                                                                                                                </label>
+                                                                                                                                              </div>
+                                                                                                                                            </div>
+                                                                                                                                          </div> 
+                                                                                                                                          
+                                                                                                                                        
+                                                                                                                                  <div class="form-group">
+                                                                                                                                            <label class="control-label col-sm-2" for="name">Address No:</label>
+                                                                                                                                            <div class="col-sm-4">          
+                                                                                                                                              <input type="name" class="form-control">
+                                                                                                                                            </div>
+                                                                                                                                  </div>
+                                                                                                                                            <div class="form-group">
+                                                                                                                                                      <label class="control-label col-sm-2" for="name">Street:</label>
+                                                                                                                                                      <div class="col-sm-4">          
+                                                                                                                                                        <input type="name" class="form-control">
+                                                                                                                                                      </div></div>
+                                                                                                                                                      <div class="form-group">
+                                                                                                                                                                <label class="control-label col-sm-2" for="name">District:</label>
+                                                                                                                                                                <div class="col-sm-4">          
+                                                                                                                                                                  <input type="name" class="form-control">
+                                                                                                                                                                </div>
+                                                                                                                                                               
+                                                                                                                                                      </div>
+                                                                                                                                                      <div class="form-group">
+                                                                                                                                                                <label class="control-label col-sm-2" for="name">Zip Code:</label>
+                                                                                                                                                                <div class="col-sm-4">          
+                                                                                                                                                                  <input type="name" class="form-control">
+                                                                                                                                                                </div></div>
+                                                                                                                                                                <div class="form-group">
+                                                                                                                                                                          <label class="control-label col-sm-2" for="name">Telephone:</label>
+                                                                                                                                                                          <div class="col-sm-4">          
+                                                                                                                                                                            <input type="name" class="form-control">
+                                                                                                                                                                          </div>
+                                                                                                                                                                          <label class="control-label col-sm-2" for="title">Mobile:</label>
+                                                                                                                                                                          <div class="col-sm-4">
+                                                                                                                                                                                    <input type="name" class="form-control">
+                                                                                                                                                                          </div>  
+                                                                                                                                                                </div>
+                                                                                                                                                                <div class="form-group">
+                                                                                                                                                                          <label class="control-label col-sm-2" for="name">Fxc:</label>
+                                                                                                                                                                          <div class="col-sm-4">          
+                                                                                                                                                                            <input type="name" class="form-control">
+                                                                                                                                                                          </div>
+                                                                                                                                                                          <label class="control-label col-sm-2" for="title">E-mail:</label>
+                                                                                                                                                                          <div class="col-sm-4">
+                                                                                                                                                                                    <input type="name" class="form-control">
+                                                                                                                                                                          </div>  
+                                                                                                                                                                </div>
+                                                                                                                                                                <div class="form-group">
+                                                                                                                                                                          <label class="control-label col-sm-2" for="name">Facebook:</label>
+                                                                                                                                                                          <div class="col-sm-4">          
+                                                                                                                                                                            <input type="name" class="form-control">
+                                                                                                                                                                          </div>
+                                                                                                                                                                </div>
+                                                                                                                                                      </form>
+                                                                                                                        
+                                                                                                                                                      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+                                                                                                                                                      <p>
+                                                                                                                                                        
+                                                                                                                                                         <hr/>
+                                                                                                                                                        
+                                                                                                                                                      </p>   
+                                                                                                                                                     
+                                                                                                                                                      <div class="container">
+                                                                                                                                                                <h2>Guardian's Information</h2>
+                                                                                                                                                                <form class="form-horizontal" action="/action_page.php">
+                                                                
+                                                                                                                                                      <div class="form-group">
+                                                                                                                                                                <label class="control-label col-sm-2" for="gen">Guardian is:</label>
+                                                                                                                                                                <div class="col-sm-10">
+                                                                                                                                                                <div class="form-check form-check-inline">
+                                                                                                                                                                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                                                                                                                                          <label class="form-check-label" for="inlineRadio1">Father</label>
+                                                                                                                                                                        </div>
+                                                                                                                                                                        <div class="form-check form-check-inline">
+                                                                                                                                                                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                                                                                                                                          <label class="form-check-label" for="inlineRadio2">Mother</label>
+                                                                                                                                                                        </div>
+                                                                                                                                                                        <div class="form-check form-check-inline">
+                                                                                                                                                                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                                                                                                                                          <label class="form-check-label" for="inlineRadio2">Other</label>
+                                                                                                                                                                        </div>
+
+             </div></div><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+             <p>
+               
+                <hr/>
+               
+             </p>   
+             <div style="text-align: center;"> 
+                       <button type="button" class="btn btn-danger active">Submit</button>
+                    <button type="button" class="btn btn-danger active">Clear</button> </div>
+                  
+                      
+                    <div class="col-sm-12">
+                        <!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+
+  <div class="footer-copyright text-center py-3" style="background-color: blue;">Copyright© All Rights Reserved By Oxford University
+   
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer --></div>
+                      </body> 
+  
+</html> 
